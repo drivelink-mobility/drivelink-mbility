@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DriveLink Mobility</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1d2939;
+}
+
+header {
+    background: #12355b;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #12355b;
+}
+
+.vehicle {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.button {
+    display: inline-block;
+    background: #12355b;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #667085;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>DriveLink Mobility</h1>
+    <p>Organization Loan-Car Portal</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome</h2>
+        <p>
+            Welcome to DriveLink Mobility.
+            Use this portal to request an organization loan vehicle.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Available Loan Vehicles</h2>
+
+        <div class="vehicle">
+            <strong>Vehicle 01</strong>
+            <p>Standard passenger vehicle</p>
+        </div>
+
+        <div class="vehicle">
+            <strong>Vehicle 02</strong>
+            <p>Comfort passenger vehicle</p>
+        </div>
+
+        <div class="vehicle">
+            <strong>Vehicle 03</strong>
+            <p>Utility vehicle</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Request a Loan Vehicle</h2>
+
+        <p>
+            Complete the official loan request form.
+        </p>
+
+        <a
+        class="button"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSetaGOpUyLEFo3e4-sUrzh1S-wBC-bpu68kCkiRUNEBHs1P8g/viewform"
+        target="_blank"
+        rel="noopener noreferrer">
+            Open Loan Request Form
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 DriveLink Mobility
+</footer>
+
+</body>
+</html>
